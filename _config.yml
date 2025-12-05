@@ -1,3 +1,40 @@
-theme: jekyll-theme-minimal
-title: Rohith's Portfolio
-description: CS student @ UofT | Projects & cool stuff
+# GitHub Pages Configuration
+# Rohithkumar Sridharan Portfolio
+
+# Site settings
+title: Rohithkumar Sridharan
+description: Computer Science Student | Software Engineer | Full-Stack Developer
+author: Rohithkumar Sridharan
+email: rohithkumar.sridharan@mail.utoronto.ca
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# GitHub Pages specific settings
+github: RohithS05
+baseurl: ""
+url: "https://rohiths05.github.io"
+
+# Social links
+social:
+  github: RohithS05
+  linkedin: rohithkumar-sridharan
+  email: rohithkumar.sridharan@mail.utoronto.ca
+
+# SEO settings
+lang: en
+timezone: America/Toronto
+
+# Exclude files from the build
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Include files
+include:
+  - _pages
